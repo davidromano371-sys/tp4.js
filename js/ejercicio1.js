@@ -15,12 +15,12 @@ const auto = {
     encender: function() {
         this.encendido = true;
         console.log("auto encendido");
-        texto.innerText += "El auto está encendido";
+        texto.innerText += "El auto está encendido\n";
     },
     apagar: function() {
         this.encendido = false;
         console.log("El auto se apagó");
-        texto.innerText += "El auto se apagó";
+        texto.innerText += "El auto se apagó\n";
     },
 };
 
